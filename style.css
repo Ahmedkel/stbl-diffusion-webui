@@ -1,17 +1,16 @@
 :root {
-  --ctp-rosewater: #f5e0dc;
-  --ctp-flamingo: #f2cdcd;
   --ctp-pink: #f5c2e7;
   --ctp-mauve: #cba6f7;
   --ctp-red: #f38ba8;
   --ctp-maroon: #eba0ac;
   --ctp-peach: #fab387;
-  --ctp-yellow: #f9e2af;
-  --ctp-green: #a6e3a1;
+  --ctp-yellow: #e6a411;
+  --ctp-green: #039b7b;
   --ctp-teal: #94e2d5;
   --ctp-sky: #89dceb;
-  --ctp-sapphire: #74c7ec;
-  --ctp-lavender: #b4befe;
+  --ctp-cyan: #48c9e0;
+  --ctp-fav: #b5bcf1;
+  --ctp-lavared: #ff0500;
   --ctp-blue: #89b4fa;
   --ctp-text: #cdd6f4;
   --ctp-subtext1: #bac2de;
@@ -26,7 +25,7 @@
   --ctp-mantle: #181825;
   --ctp-crust: #11111b;
   --shadow: #010409;
-  --ctp-accent: var(--ctp-maroon);
+  --ctp-accent: var(--ctp-fav);
   color-scheme: dark;
 }
 

@@ -6,15 +6,15 @@ from modules import script_callbacks
 from modules import shared, scripts
 import modules.scripts as scripts
 
-accents = ['rosewater', 'flamingo', 'pink' , 'mauve' ,'red', 'maroon' ,'peach', 'yellow', 'green', 'teal', 'sky', 'blue', 'sapphire', 'lavender']
-flavors = ['latte', 'frappe', 'macchiato', 'mocha']
+accents = ['pink', 'mauve', 'red', 'maroon', 'peach' ,'yellow', 'green', 'teal', 'sky', 'cyan', 'fav', 'lavared', 'blue']
+flavors = ['macchiato']
 script_path = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
 
 def on_ui_settings():
     section = ('ctp', 'Catppuccin Theme')
     shared.opts.add_option("ctp_flavor", 
                             shared.OptionInfo(
-                                default='mocha', 
+                                default='macchiato', 
                                 label="Catppuccin Flavor",  
                                 component=gr.Radio, 
                                 component_args={"choices": flavors}, 
@@ -23,7 +23,7 @@ def on_ui_settings():
 
     shared.opts.add_option("accent_color", 
                             shared.OptionInfo(
-                                default='maroon',
+                                default='fav',
                                 label='Accent',
                                 component=gr.Radio,
                                 component_args={"choices": accents},
